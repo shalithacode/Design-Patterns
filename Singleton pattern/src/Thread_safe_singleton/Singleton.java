@@ -4,7 +4,7 @@ public class Singleton {
 
 	private static Singleton instance = null;
 
-	public Singleton() {
+	private Singleton() {
 		System.out.println("Singleton object created");
 	}
 

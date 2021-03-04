@@ -1,4 +1,4 @@
-package Singleton;
+package Thread_safe_singleton;
 
 public class Singleton {
 
@@ -7,13 +7,14 @@ public class Singleton {
 	public Singleton() {
 		System.out.println("Singleton object created");
 	}
-	
+
 	public static Singleton getInstance() {
-		
-		if(instance == null) {
+
+		if (instance == null) {
 			instance = new Singleton();
 		}
 
 		return instance;
-			}
+	}
+
 }

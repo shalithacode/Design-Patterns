@@ -9,6 +9,7 @@ public class Main {
 
 		Thread thread1 = new Thread(new Thread1());
 		thread1.run();
+		Singleton.getInstance();
 
 		for (int i = 0; i < 5; i++) {
 			Singleton s = Singleton.getInstance();

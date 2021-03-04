@@ -1,12 +1,16 @@
 
 public class ColorFactory {
 
-public static Icolor getColor(String type) {
-		
-		if(type.equals("Red")) {
+	public static Icolor getColor(String type) {
+
+		if (type.equals("Red")) {
 			return new Red();
-		}
-		return null;
-		
+		} else if (type.equals("Green")) {
+			return new Green();
+		} else if (type.equals("Blue")) {
+			return new Blue();
+		} else
+			return null;
+
 	}
 }

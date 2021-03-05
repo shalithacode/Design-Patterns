@@ -1,4 +1,7 @@
 package simpleFactory;
+
+import abstractFactory.Color;
+
 public class Blue implements Icolor {
 
 	public void fill() {

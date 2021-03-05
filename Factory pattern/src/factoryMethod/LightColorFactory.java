@@ -6,7 +6,6 @@ public class LightColorFactory extends ColorFactory{
 	@Override
 	public Icolor getColor(String type) {
 		
-		
 		if (type.equals("LightRed")) {
 			return new LightRed();
 		} else if (type.equals("LightGreen")) {

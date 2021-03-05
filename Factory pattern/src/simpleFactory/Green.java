@@ -1,3 +1,4 @@
+package simpleFactory;
 
 public class Green implements Icolor {
 

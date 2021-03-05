@@ -1,3 +1,4 @@
+package simpleFactory;
 public class Blue implements Icolor {
 
 	public void fill() {

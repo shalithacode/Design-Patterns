@@ -1,3 +1,4 @@
+package simpleFactory;
 
 public interface Icolor {
 

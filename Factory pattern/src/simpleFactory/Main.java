@@ -1,3 +1,4 @@
+package simpleFactory;
 
 public class Main {
 

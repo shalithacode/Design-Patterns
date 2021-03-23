@@ -1,8 +1,8 @@
 package strategy;
 
-public class MollarDuck extends Duck{
+public class MollardDuck extends Duck{
 
-	public MollarDuck() {
+	public MollardDuck() {
 	quackBehaviour = new Quack();
 	flyBehaviour = new FlyWithWings();
 	}
@@ -12,5 +12,4 @@ public class MollarDuck extends Duck{
 		System.out.println("I am a real mollard duck");
 		
 	}
-
 }

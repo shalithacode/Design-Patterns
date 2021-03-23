@@ -1,6 +1,6 @@
 package strategy;
 
-public class ModalQuack implements IQuackBehaviour {
+public class ModelQuack implements IQuackBehaviour {
 
 	@Override
 	public void quack() {
